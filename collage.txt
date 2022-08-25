@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website von Jenith Jeyaranjan</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#Über mich">Muster 1</a>
+        <a href="#Über mich">Muster 1</a>
+        <a href="#Über mich">Muster 1</a>
+        <a href="#Über mich">Muster 1</a>
+    </div>
+    <div id="page-wrapper">
+    <div class="main">
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="./index.html">Startseite</a> </li>
+                <li> <a href="./ueber_mich.html">Über mich</a> </li>
+                <li> <a href="./projekte.html">Projekte</a> </li>
+                <li> <a href="./kontakt.html">Kontakt</a> </li>
+                <li> <a href="./collage.html">Collage</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Collage</h2>
+        <div id="photobox" class=""relPos>
+            <img id="Photo1" class="collagePhoto absPos" src="./Bilder/Download.jpg" alt="Photo1" />
+            <img id="Photo2" class="collagePhoto absPos" src="./Bilder/Download2.jpg" alt="Photo2" />
+            <img id="Photo3" class="collagePhoto absPos" src="./Bilder/Download 3.jpg" alt="Photo3" />
+            <img id="Photo4" class="collagePhoto absPos" src="./Bilder/Download4.jpg" alt="Photo4" />
+            <p id="photoText" class="absPos"><em>Photos</em></p>
+        </div>
+
+    </section>
+</div>
+    <footer>
+        <div class="main2">
+            <h2>Support</h2>
+            <p>
+              
+            
+                <a href="kontakt.html"  >Kontakt</a>
+            </p>
+        
+        </div>
+        <div>
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/j_jen252/">Instagram</a>
+            <a href="https://twitter.com/hallo44362913">Twitter</a>
+            <a href="https://vm.tiktok.com/ZMLPwstHK/">TikTok</a>
+            <a href="https://www.snapchat.com/add/j_jen25?share_id=MDY1MzIx&locale=de_CH">Snapchat</a>
+        </div>
+        <div>
+            <h2>ADRESSE</h2>
+            <a><span>Pumpwerkstrasse 1, 8134 Adliswil</span></a>
+          
+            <a href="mailto:jenith.jeyaranjan@student.ksh.ch"><span>Schule: jenith.jeyaranjan@student.ksh.ch</span></a>
+            <a href="mailto:jenith.jeyaranjan2gmail.com"> <span>Privat: jenith.jeyaranjan@gmail.com</span></a>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
