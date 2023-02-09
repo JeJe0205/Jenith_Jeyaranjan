@@ -1,64 +1,299 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website von Jenith Jeyaranjan</title>
-    <link rel="stylesheet" href="style2.css">
+  <title>This is my Portfolio Website</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <div id="page-wrapper">
-        <div class="main">
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="./index.html">Startseite</a> </li>
-                <li> <a href="./ueber_mich.html">Über mich</a> </li>
-                <li> <a href="./projekte.html">Projekte</a> </li>
-                <li> <a href="./kontakt.html">Kontakt</a> </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-       
-        <h2>Einleitung</h2>
-        <p>
-           <br>Herzlich Wilkommen zu meiner Website! :)</br>
-           In dieser Website können sie alles über mich erfahren.
-           Es sind alle Informatikprojekte aufgelistet, die ich in meiner Freizeit gemacht habe.
-           Sie können gerne bei Kontakt oder bei denn untenstehenden Email benachrichtigen.
-           Ich hoffe dass sie mehr über mich erfahren und Danke ihnen, 
-           dass sie meine Website besuchen. 
-        </p>
 
-        
+<!-- Navbar -->
+<nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
 
-    </section>
-</div>
-    <footer>
-        <div class="main2">
-            <h2>Support</h2>
-            <p>
-                <a href="kontakt.html"  >Kontakt</a>
+<!-- Hero section -->
+<section id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Hi :) ,<br>I am Jenith Jeyaranjan</h1>
+        <p>On this website you can find out everything about me.
+          All IT projects that I have done in my free time are listed.
+          You are welcome to contact me per email below.
+          I hope that you will learn more about me and thank you,
+          that you are visiting my website.</p>
+      </div>
+      <div class="col">
+        <img src="Photos/Code%20typing-amico%20(1).png" alt="...">
+      </div>
+    </div>
+    <div class="row cards">
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <!-- here is where they add the ICON -->
+            <!--<img src="..." alt="..." class="icon"> -->
+            <h5 class="card-title">Personal Data</h5>
+            <p class="card-text">
+              <br>Name: Jenith Jeyaranjan
+              <p>Adress: Pumpwerkstrasse 1, 8134 Adliswil</p>
+              <p>Birtdate: 02.01.2005</p>
+              <p>Nationality: Schweiz</p>
+              <p>Email Private: jenith.jeyaranjan@gmail.com</p>
+              <p>Email KSH: jenith.jeyaranjan@student.ksh.ch</p>
+              <p>Email BZZ: jeyaranjanj@bzz.ch</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <!-- here is where they add the ICON -->
+            <!--<img src="..." alt="..." class="icon"> -->
+           <h5 class="card-title">Education</h5>
+           <p class="card-text"><br>08/2020 - present: Informatikmittelschule
+             BZZ Horgen, Kantonschule Hottingen, ZLI <br>
+             <br>02/2018 - 07/2022: Sekundarschule Niveau A
+             Zentrum / Kronenwiese<br>
+             <br>08/2017 - 02/2018: Gymnasium (Probezeit nicht bestanden)
+             Kantonschule Freundenberg</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4 d-flex justify-content-center">
+       <div class="card">
+         <div class="card-body">
+           <!-- here is where they add the ICON -->
+           <!--<img src="..." alt="..." class="icon"> -->
+            <h5 class="card-title">Knowledge and Skills</h5>
+            <p class="card-text"><br>Sprachen:
+              <p>Tamil (Mother tongue)
+              <p>German (Native level)
+              <p>English B2
+              <p>French B1
+              <p>Finance and accounting:
+              <p>ABACUS Zertificate</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <!-- here is where they add the ICON -->
+            <!--<img src="..." alt="..." class="icon"> -->
+            <h5 class="card-title">IT-Knowledge</h5>
+            <p class="card-text"><br>MS - Office: Word,Excel,PowerPoint,Visio,Access</br>
+              <br>Main programming languages: Java, HTML/CSS, JavaScript</br>
+              <br>Side programming language: python, PHP, MySQL</br>
+              <br>Development environment: IntelliJ IDEA,Visual Studio Code,MySQL Workbench,PyCharm, React.js</br>
             </p>
-        
+          </div>
         </div>
-        <div>
-            <h2>Social Media</h2>
-            <a href="https://www.instagram.com/j_jen252/">Instagram</a>
-            <a href="https://twitter.com/hallo44362913">Twitter</a>
-            <a href="https://vm.tiktok.com/ZMLPwstHK/">TikTok</a>
-            <a href="https://www.snapchat.com/add/j_jen25?share_id=MDY1MzIx&locale=de_CH">Snapchat</a>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <!--<img src="..." alt="..." class="icon"> -->
+            <!--<img src="..." alt="..." class="icon"> -->
+            <h5 class="card-title">Interests and Hobbies</h5>
+            <p class="card-text"><br>Tennis: Tennisclub Adliswil, since 8 Years </br>
+              <br>Badminton, Pingpong, Fussball: Freetime</br>
+              <br> Tamil School: Learned to read, write and speak Tamil</br></p>
+          </div>
         </div>
-        <div>
-            <h2>ADRESSE</h2>
-            <a><span>Pumpwerkstrasse 1, 8134 Adliswil</span></a>
-            <a href="mailto:jenith.jeyaranjan@student.ksh.ch"><span>Schule: jenith.jeyaranjan@student.ksh.ch</span></a>
-            <a href="mailto:jenith.jeyaranjan2gmail.com"><span> Privat jenith.jeyaranjan@gmail.com</span></a>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <div class="card">
+          <div class="card-body">
+            <!-- here is where they add the ICON -->
+            <!--<img src="..." alt="..." class="icon"> -->
+            <h5 class="card-title">Coming Soon......</h5>
+            <p class="card-text"><br>Coming Soon :)</br>
+            </p>
+          </div>
         </div>
-    </footer>
-</div>
-</body>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Hero section ends here -->
 
+<!-- About Us -->
+<section id="about-us">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <!-- another image can be inserted here -->
+        <img src="Photos/Hand%20coding-amico.png" alt="..." class="img-fluid"/>
+      </div>
+      <div class="col">
+        <h1>About Me</h1>
+        <p>Hello!, I'm Jenith Jeyaranjan. I live with my parents in Adliswil. In 2020 I decided to attend computer science middle school.
+          It's one of the best decisions I've made. I got into the computer science world there and have fun developing and programming projects.
+          At school I mainly study Java. With the optional subject Script4Fun I also learn JavaScript and Python.
+          I learned HTML/CSS and PHP in an inter company course. In my free time I do a lot of sport.
+          On the one hand, I've been playing tennis at the Adliswil tennis club for 8 years.
+          I also play badminton, ping pong and soccer with my friends.
+          My parents Jeyaranjan Selvananayagam and Jeevasanthy Jeyaranjan are assistant cooks.  I also have a little brother who is 15 years old.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of About Us -->
+
+<!-- Projects section -->
+<div class="container">
+  <div class="row align-items-center projects">
+    <div class="col">
+      <h1>My Projects</h1>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website (HTML/CSS/Bootstrap)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-2">
+          <div class="card-body">
+            <h5 class="card-title">PixelArt (HTML/CSS, JavaScript)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Colorgame (HTML/CSS, JavaScript)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Memesgenerator (HTML/CSS, JavaScript)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Taschenrechner GUI (Java)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Gaming Website (HTML/CSS, JavaScript)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Snake (HTML/CSS, JavaScript)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Tictactoe (React.js)</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End of Projects Section -->
+
+<!-- Footer section-->
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contact</h5>
+
+        <p>
+          School: jenith.jeyaranjan@student.ksh.ch <br>
+          Private: jenith.jeyaranjan@gmail.com
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Links</h5>
+
+        <p>
+          <a href="https://github.com/JeJe0205?tab=repositories">Github</a>
+          <a href="https://www.instagram.com/j_jen252/">Instagram</a>
+          <a href="https://twitter.com/hallo44362913">Twitter</a>
+          <a href="https://www.snapchat.com/add/j_jen25?share_id=MDY1MzIx&locale=de_CH">Snapchat</a>
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <a class="text-dark">Jenith Jeyaranjan | Pumpwerkstrasse 1,8134 Adliswil</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- End of Footer section -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
 </html>
