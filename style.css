@@ -39,7 +39,7 @@ section h1{
     text-transform: uppercase;
     font-weight: 900;
     color: #3a58a4;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -97,9 +97,41 @@ button{
 
 }
 
+/*Projects*/
+#project .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
 
+#project .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
 
-/* contact section styling */
+#project img{
+    max-width: 130%; !important;
+    width: 130%;
+}
+
+/* Styling for the cards */
+#project .card{
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+#project .cards .card{
+    width: 18rem;
+}
+
+/* Styling for Icons if added */
+#project .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 
 
 
