@@ -122,13 +122,13 @@ button{
 }
 
 #project .cards .card{
-    width: 18rem;
+    width: 25rem;
 }
 
 /* Styling for Icons if added */
 #project .icon{
-    width: 50px;
-    height: 50px;
+    width: 300px;
+    height: 250px;
     margin-bottom: 20px;
 }
 
